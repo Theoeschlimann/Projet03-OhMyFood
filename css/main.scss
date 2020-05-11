@@ -14,9 +14,11 @@ a {
   color: inherit;
   text-decoration: none;
 }
-// Variables
 
+// Variables
 $secondary-color: #fccb45;
 $primary-color: #589d88;
+
 // Import
 @import "modules/header";
+@import "modules/main-page";

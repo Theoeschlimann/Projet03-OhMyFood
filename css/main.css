@@ -1,3 +1,9 @@
+@import url(https://fonts.googleapis.com/css2?family=Devonshire&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Itim&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Kurale&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swa);
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap);
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -60,6 +66,88 @@ main .block_menu a {
           align-items: center;
   width: 100%;
   height: 100%;
+}
+
+main .block_menu h2 {
+  font-size: 2.7em;
+  font-weight: 400;
+}
+
+.note {
+  background-color: #fce2de;
+}
+
+.note i {
+  font-size: 2.2em;
+  background: -webkit-gradient(linear, left top, right top, from(#ad3751), to(#eeae65));
+  background: linear-gradient(to right, #ad3751 0%, #eeae65 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.note h2 {
+  font-family: "Devonshire", cursive;
+  color: #3e131a;
+}
+
+.note p {
+  font-family: "Itim", cursive;
+  color: #3e131a;
+  font-style: italic;
+  font-size: 2.5em;
+}
+
+.chic {
+  background-color: #f8ddf6;
+}
+
+.chic h2 {
+  font-family: "Kurale", serif;
+  background: -webkit-gradient(linear, left top, right top, from(#c57411), to(#6e4ccd));
+  background: linear-gradient(to right, #c57411 0%, #6e4ccd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.chic p {
+  font-family: "Lusitana", serif;
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #c57411;
+}
+
+.delice {
+  background-color: #ECEEEE;
+}
+
+.delice h2 {
+  font-family: 'Dancing Script', cursive;
+  background: -webkit-gradient(linear, left top, right top, from(#0021db), to(#249df9));
+  background: linear-gradient(to right, #0021db 0%, #249df9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.delice p {
+  font-family: "Itim", cursive;
+  font-size: 2.5em;
+  font-style: italic;
+  color: #0021db;
+}
+
+.palette h2 {
+  font-family: 'Kaushan Script', cursive;
+  background: -webkit-gradient(linear, left top, right top, from(#3d923a), to(#bfff80));
+  background: linear-gradient(to right, #3d923a 0%, #bfff80 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.palette p {
+  font-family: "Itim", cursive;
+  font-size: 2.5em;
+  font-style: italic;
+  color: #bfff80;
 }
 
 footer {

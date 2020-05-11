@@ -20,5 +20,88 @@ main {
       width: 100%;
       height: 100%;
     }
+
+    h2 {
+      font-size: 2.7em;
+      font-weight: 400;
+    }
+  }
+}
+
+//La note enchantée
+.note {
+  background-color: #fce2de;
+  i {
+    font-size: 2.2em;
+    background: linear-gradient(to right, #ad3751 0%, #eeae65 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  h2 {
+    font-family: "Devonshire", cursive;
+    color: #3e131a;
+  }
+
+  p {
+    font-family: "Itim", cursive;
+    color: #3e131a;
+    font-style: italic;
+    font-size: 2.5em;
+  }
+}
+
+//Le chic à la française
+.chic {
+  background-color: #f8ddf6;
+  h2 {
+    font-family: "Kurale", serif;
+    background: linear-gradient(to right, #c57411 0%, #6e4ccd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  p {
+    font-family: "Lusitana", serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #c57411;
+  }
+}
+
+//Le délice des papilles
+.delice{
+  background-color: #ECEEEE;
+
+  h2{
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(to right, #0021db 0%, #249df9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  p{
+    font-family: "Itim", cursive;
+    font-size: 2.5em;
+    font-style: italic;
+    color: #0021db;
+  }
+}
+
+//La palette du gout
+.palette{
+
+  h2{
+    font-family: 'Kaushan Script', cursive;
+    background: linear-gradient(to right, #3d923a 0%, #bfff80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  p{
+    font-family: "Itim", cursive;
+    font-size: 2.5em;
+    font-style: italic;
+    color: #bfff80;
   }
 }

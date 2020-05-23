@@ -240,7 +240,7 @@ footer a {
 @media (min-width: 1300px) {
   main {
     margin: 100px auto 0px auto;
-    width: 55%;
+    width: 50%;
     padding: 0px;
     -ms-grid-columns: (minmax(300px, 450px))[2];
         grid-template-columns: repeat(2, minmax(300px, 450px));

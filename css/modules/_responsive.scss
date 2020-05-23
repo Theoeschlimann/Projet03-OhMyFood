@@ -9,12 +9,11 @@
       }
 
     main {
-      margin: 100px auto 0px auto;
-      padding: 50px;
-      grid-template-columns: repeat(2, minmax(300px, 1fr));
-      grid-template-rows: repeat(2, 600px);
-      grid-column-gap: 80px;
-      grid-row-gap: 80px;
+      padding: 20px;
+      grid-template-columns: repeat(2, minmax(325px, 450px));
+      grid-template-rows: repeat(2, 650px);
+      grid-column-gap: 50px;
+      grid-row-gap: 60px;
     }
   
     button{
@@ -31,17 +30,4 @@
             font-size: 25px;
           }
       }
-  }
-  
-  @media (min-width: 1300px) {
-    main {
-      margin: 100px auto 0px auto;
-      width: 50%;
-      padding: 0px;
-      grid-template-columns: repeat(2, minmax(300px, 450px));
-      grid-template-rows: repeat(2, 600px);
-      grid-column-gap: 80px;
-      grid-row-gap: 80px;
-    }
-  
   }

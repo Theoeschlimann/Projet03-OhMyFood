@@ -169,8 +169,8 @@ button {
   border-radius: 10px;
   background-color: #589d88;
   color: #fccb45;
-  padding: 15px 30px;
-  font-size: 1.2em;
+  padding: 20px 40px;
+  font-size: 1.5em;
 }
 
 footer {
@@ -200,5 +200,54 @@ footer a {
   color: #fccb45;
   font-size: 20px;
   font-weight: 800;
+}
+
+@media (min-width: 750px) {
+  header img {
+    height: 80px;
+  }
+  main {
+    margin: 100px auto 0px auto;
+    padding: 50px;
+    -ms-grid-columns: (minmax(300px, 1fr))[2];
+        grid-template-columns: repeat(2, minmax(300px, 1fr));
+    -ms-grid-rows: (600px)[2];
+        grid-template-rows: repeat(2, 600px);
+    grid-column-gap: 80px;
+    grid-row-gap: 80px;
+  }
+  button {
+    padding: 20px 40px;
+    font-size: 1.8em;
+  }
+  footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  footer a {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1300px) {
+  main {
+    margin: 100px auto 0px auto;
+    width: 55%;
+    padding: 0px;
+    -ms-grid-columns: (minmax(300px, 450px))[2];
+        grid-template-columns: repeat(2, minmax(300px, 450px));
+    -ms-grid-rows: (600px)[2];
+        grid-template-rows: repeat(2, 600px);
+    grid-column-gap: 80px;
+    grid-row-gap: 80px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

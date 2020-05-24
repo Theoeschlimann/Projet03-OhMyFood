@@ -39,7 +39,7 @@ header img {
   height: 60px;
 }
 
-main {
+.main-page {
   margin: 100px auto 0px auto;
   padding: 10px;
   display: -ms-grid;
@@ -55,12 +55,12 @@ main {
   grid-row-gap: 80px;
 }
 
-main .block_menu {
+.main-page .block_menu {
   -webkit-box-shadow: 1px 7px 29px -16px rgba(0, 0, 0, 0.75);
   box-shadow: 1px 7px 29px -16px rgba(0, 0, 0, 0.75);
 }
 
-main .block_menu a {
+.main-page .block_menu a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,13 +78,13 @@ main .block_menu a {
   height: 100%;
 }
 
-main .block_menu h2 {
+.main-page .block_menu h2 {
   font-size: 2.7em;
   font-weight: 400;
   text-align: center;
 }
 
-main .block_menu p {
+.main-page .block_menu p {
   margin-top: 20px;
 }
 
@@ -209,7 +209,7 @@ footer a {
   header img {
     height: 80px;
   }
-  main {
+  .main-page {
     padding: 20px;
     -ms-grid-columns: (minmax(325px, 450px))[2];
         grid-template-columns: repeat(2, minmax(325px, 450px));

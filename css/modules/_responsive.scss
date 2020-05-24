@@ -31,3 +31,46 @@
           }
       }
   }
+
+///RESPONSIVE NOTE ENCHANTEE
+
+@media (min-width: 1024px) {
+  .menu-note-enchantee {
+    margin: 100px auto 180px auto !important;
+    width: 55%;
+    padding: 50px 10%;
+
+    .fa-itunes-note {
+      font-size: 7em !important;
+    }
+
+    h1 {
+      font-size: 3.6em !important;
+    }
+
+    h2{
+      font-size: 2.5em;
+      font-weight: 400;
+    }
+
+    ul {
+      font-size: 1.3em;
+    }
+
+    .menu-signature{
+      margin-top: 40px;
+
+      .fa-itunes-note {
+          font-size: 3em !important;
+      }
+
+      h3{
+          font-family: "Devonshire", cursive;
+          font-size: 3em;
+          color: #3e131a;
+          font-weight: 400;
+          margin-left: 20px;
+      }
+  }
+  }
+}

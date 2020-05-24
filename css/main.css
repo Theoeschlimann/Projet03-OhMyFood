@@ -238,4 +238,137 @@ footer a {
     font-size: 25px;
   }
 }
+
+@media (min-width: 1024px) {
+  .menu-note-enchantee {
+    margin: 100px auto 180px auto !important;
+    width: 55%;
+    padding: 50px 10%;
+  }
+  .menu-note-enchantee .fa-itunes-note {
+    font-size: 7em !important;
+  }
+  .menu-note-enchantee h1 {
+    font-size: 3.6em !important;
+  }
+  .menu-note-enchantee h2 {
+    font-size: 2.5em;
+    font-weight: 400;
+  }
+  .menu-note-enchantee ul {
+    font-size: 1.3em;
+  }
+  .menu-note-enchantee .menu-signature {
+    margin-top: 40px;
+  }
+  .menu-note-enchantee .menu-signature .fa-itunes-note {
+    font-size: 3em !important;
+  }
+  .menu-note-enchantee .menu-signature h3 {
+    font-family: "Devonshire", cursive;
+    font-size: 3em;
+    color: #3e131a;
+    font-weight: 400;
+    margin-left: 20px;
+  }
+}
+
+.menu-note-enchantee {
+  background-color: #fce2de;
+  margin: 100px 20px 180px 20px;
+  padding: 50px 5%;
+  -webkit-box-shadow: 1px 7px 29px -16px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 7px 29px -16px rgba(0, 0, 0, 0.75);
+}
+
+.menu-note-enchantee .fa-itunes-note {
+  display: block;
+  font-size: 4em;
+  background: -webkit-gradient(linear, left top, right top, from(#ad3751), to(#eeae65));
+  background: linear-gradient(to right, #ad3751 0%, #eeae65 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu-note-enchantee h1 {
+  text-align: center;
+  font-family: "Devonshire", cursive;
+  font-size: 2.7em;
+  color: #3e131a;
+  font-weight: 400;
+}
+
+.menu-note-enchantee .section-note-enchantee {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-note-enchantee .section-note-enchantee h2 {
+  font-family: "Itim", cursive;
+  color: #3e131a;
+  text-align: center;
+}
+
+.menu-note-enchantee .section-note-enchantee img {
+  width: 30%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.menu-note-enchantee ul {
+  font-family: "Itim", cursive;
+  font-style: italic;
+  color: #3e131a;
+}
+
+.menu-note-enchantee ul li {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-note-enchantee ul li span {
+  font-weight: bolder;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 15px;
+}
+
+.menu-note-enchantee .menu-signature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+}
+
+.menu-note-enchantee .menu-signature .fa-itunes-note {
+  font-size: 2.5em;
+}
+
+.menu-note-enchantee .menu-signature h3 {
+  font-family: "Devonshire", cursive;
+  font-size: 2em;
+  color: #3e131a;
+  font-weight: 400;
+  margin-left: 10px;
+}
 /*# sourceMappingURL=main.css.map */

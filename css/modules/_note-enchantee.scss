@@ -1,0 +1,86 @@
+.menu-note-enchantee {
+
+    background-color: #fce2de;
+    margin: 100px 20px 180px 20px;
+    padding: 50px 5%;
+
+    -webkit-box-shadow: 1px 7px 29px -16px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 7px 29px -16px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 7px 29px -16px rgba(0, 0, 0, 0.75);
+
+    .fa-itunes-note {
+        display: block;
+        font-size: 4em;
+        background: linear-gradient(to right, #ad3751 0%, #eeae65 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: "Devonshire", cursive;
+        font-size: 2.7em;
+        color: #3e131a;
+        font-weight: 400;
+    }
+
+    .section-note-enchantee{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+
+        h2 {
+            font-family: "Itim", cursive;
+            color: #3e131a;
+            text-align: center;
+        }
+
+        img{
+            width: 30%;
+            height: auto;
+            object-fit: contain;
+        }
+    }
+
+    ul {
+        font-family: "Itim", cursive;
+        font-style: italic;
+        color: #3e131a;
+
+        li {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+
+            span{
+                font-weight: bolder;
+                align-self: center;
+                margin-left: 15px;
+            }
+        }
+    }
+
+    .menu-signature{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+
+        .fa-itunes-note {
+            
+            font-size: 2.5em;
+            
+        }
+
+        h3{
+            font-family: "Devonshire", cursive;
+            font-size: 2em;
+            color: #3e131a;
+            font-weight: 400;
+            margin-left: 10px;
+        }
+    }
+    
+}

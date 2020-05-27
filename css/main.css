@@ -265,11 +265,23 @@ footer a {
     font-size: 3em !important;
   }
   .menu-note-enchantee .menu-signature h3 {
-    font-family: "Devonshire", cursive;
     font-size: 3em;
-    color: #3e131a;
-    font-weight: 400;
     margin-left: 20px;
+  }
+  .menu-chic-a-la-francaise {
+    margin: 100px auto 180px auto !important;
+    width: 55%;
+    padding: 50px 10%;
+  }
+  .menu-chic-a-la-francaise h1 {
+    font-size: 3.6em !important;
+  }
+  .menu-chic-a-la-francaise h2 {
+    font-size: 2.2em;
+    font-weight: 400;
+  }
+  .menu-chic-a-la-francaise ul {
+    font-size: 1.3em;
   }
 }
 
@@ -370,5 +382,80 @@ footer a {
   color: #3e131a;
   font-weight: 400;
   margin-left: 10px;
+}
+
+.menu-chic-a-la-francaise {
+  background-color: #f8ddf6;
+  margin: 100px 20px 180px 20px;
+  padding: 50px 5%;
+  -webkit-box-shadow: 1px 7px 29px -16px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 7px 29px -16px rgba(0, 0, 0, 0.75);
+}
+
+.menu-chic-a-la-francaise h1 {
+  text-align: center;
+  font-family: "Kurale", serif;
+  background: -webkit-gradient(linear, left top, right top, from(#c57411), to(#6e4ccd));
+  background: linear-gradient(to right, #c57411 0%, #6e4ccd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.7em;
+  font-weight: 400;
+}
+
+.menu-chic-a-la-francaise .orange {
+  color: #c57411;
+}
+
+.menu-chic-a-la-francaise .pink {
+  color: #a56999;
+}
+
+.menu-chic-a-la-francaise .purple {
+  color: #6e4ccd;
+}
+
+.menu-chic-a-la-francaise .section-chic-a-la-francaise {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-chic-a-la-francaise .section-chic-a-la-francaise h2 {
+  font-family: "Lusitana", serif;
+  text-align: center;
+}
+
+.menu-chic-a-la-francaise .section-chic-a-la-francaise img {
+  width: 30%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.menu-chic-a-la-francaise ul {
+  font-family: "Kurale", serif;
+}
+
+.menu-chic-a-la-francaise ul li {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-chic-a-la-francaise ul li span {
+  font-weight: bolder;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 15px;
 }
 /*# sourceMappingURL=main.css.map */

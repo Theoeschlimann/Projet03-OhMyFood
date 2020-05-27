@@ -3,7 +3,7 @@
 @media (min-width: 750px) {
 
     header {
-        img{
+        img {
           height: 80px;
         }
       }
@@ -64,13 +64,30 @@
           font-size: 3em !important;
       }
 
-      h3{
-          font-family: "Devonshire", cursive;
+      h3 {
           font-size: 3em;
-          color: #3e131a;
-          font-weight: 400;
           margin-left: 20px;
       }
+    }
   }
+
+
+  .menu-chic-a-la-francaise {
+    margin: 100px auto 180px auto !important;
+    width: 55%;
+    padding: 50px 10%;
+
+    h1 {
+      font-size: 3.6em !important;
+    }
+
+    h2 {
+      font-size: 2.2em;
+      font-weight: 400;
+    }
+
+    ul {
+      font-size: 1.3em;
+    }
   }
 }

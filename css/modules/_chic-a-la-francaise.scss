@@ -1,0 +1,60 @@
+.menu-chic-a-la-francaise {
+
+    background-color: #f8ddf6;
+    margin: 100px 20px 180px 20px;
+    padding: 50px 5%;
+
+    -webkit-box-shadow: 1px 7px 29px -16px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 7px 29px -16px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 7px 29px -16px rgba(0, 0, 0, 0.75);
+
+    h1 {
+        text-align: center;
+
+        font-family: "Kurale", serif;
+        background: linear-gradient(to right, #c57411 0%, #6e4ccd 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 2.7em;
+        font-weight: 400;
+    }
+
+    .orange{color: #c57411;}
+
+    .pink{color: #a56999;}
+
+    .purple{color: #6e4ccd;}
+
+    .section-chic-a-la-francaise {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+
+        h2 {
+            font-family: "Lusitana", serif;
+            text-align: center;
+        }
+
+        img {
+            width: 30%;
+            height: auto;
+            object-fit: contain;
+        }
+    }
+
+    ul {
+        font-family: "Kurale", serif;
+
+        li {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+
+            span {
+                font-weight: bolder;
+                align-self: center;
+                margin-left: 15px;
+            }
+        }
+    } 
+}

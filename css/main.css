@@ -298,6 +298,21 @@ footer a {
   .menu-delice-des-papilles ul {
     font-size: 1.3em;
   }
+  .menu-palette-du-gout {
+    margin: 100px auto 180px auto !important;
+    width: 55%;
+    padding: 50px 10%;
+  }
+  .menu-palette-du-gout h1 {
+    font-size: 3.6em !important;
+  }
+  .menu-palette-du-gout h2 {
+    font-size: 2.2em;
+    font-weight: 400;
+  }
+  .menu-palette-du-gout ul {
+    font-size: 1.3em;
+  }
 }
 
 .menu-note-enchantee {
@@ -531,6 +546,69 @@ footer a {
 }
 
 .menu-delice-des-papilles ul li span {
+  font-weight: bolder;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 15px;
+}
+
+.menu-palette-du-gout {
+  margin: 100px 20px 180px 20px;
+  padding: 50px 5%;
+  -webkit-box-shadow: 1px 7px 29px -16px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 7px 29px -16px rgba(0, 0, 0, 0.75);
+}
+
+.menu-palette-du-gout h1 {
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  background: -webkit-gradient(linear, left top, right top, from(#3d923a), to(#bfff80));
+  background: linear-gradient(to right, #3d923a 0%, #bfff80 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.7em;
+  font-weight: 400;
+}
+
+.menu-palette-du-gout .section-palette-du-gout {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-palette-du-gout .section-palette-du-gout h2 {
+  font-family: "Itim", cursive;
+  text-align: center;
+  font-weight: 400;
+}
+
+.menu-palette-du-gout .section-palette-du-gout img {
+  width: 30%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.menu-palette-du-gout ul {
+  font-family: "Itim", cursive;
+}
+
+.menu-palette-du-gout ul li {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-palette-du-gout ul li span {
   font-weight: bolder;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;

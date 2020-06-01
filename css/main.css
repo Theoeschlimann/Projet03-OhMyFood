@@ -283,6 +283,21 @@ footer a {
   .menu-chic-a-la-francaise ul {
     font-size: 1.3em;
   }
+  .menu-delice-des-papilles {
+    margin: 100px auto 180px auto !important;
+    width: 55%;
+    padding: 50px 10%;
+  }
+  .menu-delice-des-papilles h1 {
+    font-size: 3.6em !important;
+  }
+  .menu-delice-des-papilles h2 {
+    font-size: 2.2em;
+    font-weight: 400;
+  }
+  .menu-delice-des-papilles ul {
+    font-size: 1.3em;
+  }
 }
 
 .menu-note-enchantee {
@@ -452,6 +467,70 @@ footer a {
 }
 
 .menu-chic-a-la-francaise ul li span {
+  font-weight: bolder;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 15px;
+}
+
+.menu-delice-des-papilles {
+  background-color: #ECEEEE;
+  margin: 100px 20px 180px 20px;
+  padding: 50px 5%;
+  -webkit-box-shadow: 1px 7px 29px -16px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 7px 29px -16px rgba(0, 0, 0, 0.75);
+}
+
+.menu-delice-des-papilles h1 {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  background: -webkit-gradient(linear, left top, right top, from(#0021db), to(#249df9));
+  background: linear-gradient(to right, #0021db 0%, #249df9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.7em;
+  font-weight: 400;
+}
+
+.menu-delice-des-papilles .section-delice-des-papilles {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-delice-des-papilles .section-delice-des-papilles h2 {
+  font-family: "Itim", cursive;
+  text-align: center;
+  font-weight: 400;
+}
+
+.menu-delice-des-papilles .section-delice-des-papilles img {
+  width: 30%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.menu-delice-des-papilles ul {
+  font-family: "Itim", cursive;
+}
+
+.menu-delice-des-papilles ul li {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-delice-des-papilles ul li span {
   font-weight: bolder;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;

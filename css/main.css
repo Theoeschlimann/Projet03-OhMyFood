@@ -686,6 +686,10 @@ footer a:hover {
   margin-top: 200px;
 }
 
+.main-mention-legale p {
+  margin: 10% 10%;
+}
+
 .menu-note-enchantee {
   background-color: #fce2de;
   margin: 100px 20px 180px 20px;

@@ -113,9 +113,11 @@
   }
 }
 
-button{
+.button{
   display: block;
   margin: 80px auto 140px auto;
+  width: 305px;
+  text-align: center;
 
   border: none;
   border-radius: 10px;

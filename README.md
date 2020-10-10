@@ -5,6 +5,8 @@
 
 ### Compétences professionnelles :
 
+- Intégrer du contenu conformément à une maquette
+
 - Développer chaque page d'un site web de manière cohérente et structurée
 
 - Assurer la cohérence graphique d'un site web
